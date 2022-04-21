@@ -1,0 +1,25 @@
+.form {
+    display: grid;
+    grid-template: 4rem 4rem / 1fr 1fr;
+    gap: 1rem;
+    margin: 3rem;
+
+    .form--input {
+        font-family: "Karla", sans-serif;
+        border-radius: 1rem;
+        border: .1rem solid #D5D4D8;
+        text-indent: 1rem;
+    }
+    
+    .form--button {
+        grid-column: 1 / -1;
+        font-family: "Karla", sans-serif;
+        border-radius: 1rem;
+        background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
